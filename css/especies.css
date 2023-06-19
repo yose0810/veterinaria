@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(135deg, #044997, #1B7087);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.content-container {
+  background-color: #F7FFFF;
+  width: 73%;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-container-especies {
+  background-color: #FFFFFF;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #003D59;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.species-container {
+  width: 100%;
+}
+
+.species-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.species-description {
+  margin-left: 20px;
+  width: 110%;
+}
+
+
+
+.recommendations-container {
+  margin-bottom: 20px;
+}
+
+.curiosities-container {
+  background-color: #FDFDFD;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curiosities-container h1 {
+  color: #003D59;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.curiosities-container p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.curiosities-container p:nth-child(odd) {
+  background: linear-gradient(180deg, #A6E4E4, #83CFFA);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.curiosities-container p:nth-child(even) {
+  background: linear-gradient(180deg, #83CFFA, #A6E4E4);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+ul {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify;
+  padding-left: 20px; /* Agregar un poco de espacio a la izquierda */
+}
+
+ul li {
+  list-style-type: square; /* Utilizar viñetas cuadradas */
+  margin-bottom: 5px; /* Agregar espacio entre los elementos de la lista */
+}

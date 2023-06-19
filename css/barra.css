@@ -1,0 +1,27 @@
+body {
+  background-color: #2294B4; /* Color de fondo verde */
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #FFFFFF; /* Color de texto blanco */
+  text-decoration: none;
+}
+
+h {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 5px;
+  display: inline-block;
+  transition: transform 0.6s ease;
+}
+
+h:hover {
+  transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+  color: aqua;
+}

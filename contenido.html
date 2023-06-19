@@ -1,0 +1,72 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contenido General</title>
+  <link rel="stylesheet" type="text/css" href="css/contenido.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var images = document.querySelectorAll(".slideshow-container img");
+      var currentImageIndex = 0;
+      
+      setInterval(function() {
+        images[currentImageIndex].classList.remove("active");
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        images[currentImageIndex].classList.add("active");
+      }, 5000);
+    });
+  </script>
+</head>
+<body>
+
+  <div class="content-container">
+    <div class="slideshow-container">
+      <img src="imagenes/scroll1.jpg" alt="Imagen 1" class="active">
+      <img src="imagenes/scroll2.jpg" alt="Imagen 2">
+      <img src="imagenes/scroll3.jpg" alt="Imagen 3">
+      <img src="imagenes/scroll4.jpg" alt="Imagen 3">
+    </div>
+  </div>
+
+  <div class="content-container">
+    <h1>¡Bienvenido a nuestra veterinaria online!</h1>
+    <p>En nuestro sitio web, te ofrecemos una experiencia única para el cuidado de tus adorables mascotas. Aquí encontrarás todo lo que necesitas para mantener a tus peludos amigos felices y saludables.</p>
+    <br>
+    <p>Nuestro objetivo principal es brindarte un servicio de consulta veterinaria accesible y conveniente.Además de nuestras consultas veterinarias, te proporcionaremos valiosas recomendaciones de cuidados para diferentes tipos de mascotas. Desde perros y gatos hasta pequeños roedores y aves exóticas, tenemos información detallada y útil sobre nutrición, ejercicios, entrenamiento y mucho más. Queremos que te conviertas en un experto en el cuidado de tus queridos compañeros.</p>
+    <br>
+    <p>No olvides explorar nuestra sección de productos en venta, donde encontrarás una amplia variedad de artículos de alta calidad para el bienestar de tus mascotas. ¡Estamos aquí para brindarte todo el apoyo y la información que necesitas para ser el mejor cuidador de tus adorables amigos peludos!</p>
+  </div>
+
+  <div class="content-container">
+    <h1>¡Selecciona tu mascota!</h1>
+    <div class="pet-container">
+    <div class="pet-item">
+      <a href="paginas/perros.html"><img src="imagenes/perros2.jpg" alt="Mascota 1"></a>
+      <p>Perros</p>
+    </div>
+    <div class="pet-item">
+      <a href="paginas/gatos.html"><img src="imagenes/gatos.jpg" alt="Mascota 2"></a>
+      <p>Gatos</p>
+    </div>
+    <div class="pet-item">
+      <a href="paginas/aves.html"><img src="imagenes/aves.jpg" alt="Mascota 3"></a>
+      <p>Aves</p>
+    </div>
+    <div class="pet-item">
+      <a href="paginas/peces.html"><img src="imagenes/peces.jpg" alt="Mascota 4"></a>
+      <p>Peces</p>
+    </div>
+  </div>
+  </div>
+
+  <div class="content-container">
+    <h1>¿Necesitas generar una consulta?</h1>
+    <p>Hay ocasiones en las que nuestros pequeños amigos peludos necesitan de una atencion mas especializada, porfavo, si crees que tu mascota puede tener complicaciones de algun tipo, o quisieras saber su estado de salud, o simplemente tener su chequeo mensual, te invitamos a que generes una consulta con nuestros profesionales.</p>
+    <div class="button-container">
+  <a class="custom-button" href="paginas/consulta.php">
+    <span>Haz clic aquí</span>
+  </a>
+</div>
+
+  </div>
+</body>
+</html>
